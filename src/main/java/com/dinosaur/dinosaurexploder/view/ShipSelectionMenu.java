@@ -42,9 +42,6 @@ public class ShipSelectionMenu extends FXGLMenu {
     public ShipSelectionMenu() {
         super(MenuType.MAIN_MENU);
 
-
-        // Background music
-        AudioManager.getInstance().playMusic(GameConstants.MAIN_MENU_SOUND);
         
 
         // background image
@@ -103,7 +100,6 @@ public class ShipSelectionMenu extends FXGLMenu {
         backButton.setMinSize(140, 60);
         backButton.setStyle("-fx-font-size: 20px;");
         backButton.setOnAction(event -> {
-            AudioManager.getInstance().stopMusic();
             fireResume();
         });
 
