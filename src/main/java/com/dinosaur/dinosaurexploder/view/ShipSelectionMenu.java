@@ -42,7 +42,8 @@ public class ShipSelectionMenu extends FXGLMenu {
     public ShipSelectionMenu() {
         super(MenuType.MAIN_MENU);
 
-        
+
+
 
         // background image
         InputStream backGround = getClass().getClassLoader().getResourceAsStream("assets/textures/background.png");

@@ -41,6 +41,7 @@ public class WeaponSelectionMenu extends FXGLMenu {
 
     public WeaponSelectionMenu() {
         super(MenuType.MAIN_MENU);
+
         
 
         // background image
